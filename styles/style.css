@@ -183,6 +183,34 @@ h2 {
   gap: 2rem;
 }
 
+/* .title-result {
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
+
+} */
+.title-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title-result {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.title-underline {
+  width: 50px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 8px auto 10px auto;
+  border-radius: 2px;
+}
+
+
 .timeline-date {
   font-weight: bold;
   color: #1abc9c;
@@ -469,6 +497,21 @@ footer {
 .footer-nav li a:hover {
   color: #1abc9c;
 }
+
+.footer-social a {
+  margin: 0 10px 10px 10px; /* kasih jarak horizontal */
+  color: #1abc9c; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* .contact-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #1abc9c;
+} */
+
 
 /* Responsive */
 @media (max-width: 768px) {
